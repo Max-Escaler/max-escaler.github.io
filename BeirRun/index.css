@@ -1,0 +1,42 @@
+@font-face{
+	font-family: GreatLakesNF;
+	src: url(./Assets/Fonts/greatlakesnf.ttf);
+}
+
+
+body {
+	background-color: lightblue;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  object-fit: cover;
+  position:relative;
+  height: 120px;
+}
+
+canvas{
+    padding-left: 50;
+    padding-right: 0;
+    margin-left: 100px;
+    margin-right: auto;
+    width:800px;
+    float: center;
+}
+
+script{
+	align-content: bottom;
+}
+
+ul{
+	font-family: GreatLakesNF;
+	float: left;
+	width: 300px;
+	word-wrap: break-word;
+	list-style-type: none;
+}
+li{
+}
