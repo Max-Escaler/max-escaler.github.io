@@ -1,9 +1,7 @@
 @font-face{
 	font-family: GreatLakesNF;
-	src: url(./Assets/Fonts/greatlakesnf.ttf);
+	src: url("./BeirRun/Assets/fonts/greatlakesnf.ttf");
 }
-
-
 body {
 	background-color: lightblue;
 }
