@@ -44,7 +44,7 @@ ul.left{
 	word-wrap: break-word;
 }
 li{
-  font-size: 2vw;
+  font-size: 1vw;
   font-family: great_lakes_nfregular;
 
 }
@@ -61,5 +61,5 @@ ul.right
 li.title
 {
   list-style-type: none;
-  font-size: 3vw;
+  font-size: 2vw;
 }
