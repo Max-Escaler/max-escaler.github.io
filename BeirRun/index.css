@@ -27,8 +27,9 @@ canvas{
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
-    width:800px;
     float: center;
+    width: 40%;
+
 }
 
 script{
@@ -40,7 +41,7 @@ ul.left{
   margin-right: 4%;
   font: inherit;
 	float: left;
-	width: 300px;
+  width: 22%;
 	word-wrap: break-word;
 }
 li{
