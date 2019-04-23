@@ -22,32 +22,42 @@ img.logo{
   height: 120px;
 }
 
-
-img.listpic{
-}
-
 canvas{
-    padding-left: 50;
+    padding-left: 0;
     padding-right: 0;
-    margin-left: 100px;
+    margin-left: auto;
     margin-right: auto;
     width:800px;
     float: center;
 }
 
 script{
-	align-content: bottom;
+	align-content: middle;
 }
 
 ul.left{
 	font-family: great_lakes_nfregular;
+  margin-right: 4%;
   font: inherit;
 	float: left;
 	width: 300px;
 	word-wrap: break-word;
-	list-style-type: none;
 }
 li{
   font-family: great_lakes_nfregular;
 
+}
+
+
+ul.right
+{
+  margin-right: 100px;
+  width: 300px;
+  float:right;
+  text-align: left;
+}
+
+li.title
+{
+  list-style-type: none;
 }

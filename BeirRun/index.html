@@ -6,17 +6,15 @@
     <title>BeirRun</title>
     <link rel="stylesheet" type="text/css" href="./index.css"/>
   </head>
-  <img class="logo" src = "./Assets/beer.png" width="25%">
+  <img class="logo" src = "./Assets/logo.png" width="25%">
   <body>
   	<ul class= "left">
-  		<li><font size ="+4"> Instructions: </font></li>
+  		<li class = "title"><font size ="+4"> Instructions: </font></li>
       <li><font size ="+2">Use W,A,S,D to move</font></li>
       <li>
         <font size ="+2">Collect beers and shots to increase your score</font>
         <img class="listpic" src= "../images/drinks/O'Murphy's/Beer.png"/>
         <img class="listpic" src= "../images/drinks/O'Murphy's/Shot.png"/>
-
-
       </li>
       <li><font size ="+2">Be careful, alcohol has some crazy effects</font></li>
   		<li>
@@ -25,6 +23,27 @@
         <img class="listpic" src="../images/drinks/O'Murphy's/Water.png"/>
       </li>
   	</ul>
+
+    <ul class = "right">
+      <li class="title"><font size ="+4"> Pick-Ups:</font></li>
+      <li class = "right">
+        <font size ="+2">Beers increase your intoxication level</font>
+        <img class="listpic" src="../images/drinks/O'Murphy's/Beer.png"/>
+      </li>
+      <li class = "right">
+        <font size ="+2">Shots increase your intoxication level</font>
+        <img class="listpic" src="../images/drinks/O'Murphy's/Shot.png"/>
+      </li>      
+      <li class = "right">
+        <font size ="+2">Water decreases your intoxication level</font>
+        <img class="listpic" src="../images/drinks/O'Murphy's/Water.png"/>
+      </li>
+      <li class = "right">
+        <font size ="+2">Pretzels decrease your intoxication level</font>
+        <img class="listpic" src="../images/drinks/O'Murphy's/Pretzel.png"/>
+      </li>
+    </ul>
+
     <canvas height="800" width="1000" data-processing-sources="BeirRun.pde Drink.pde Player.pde Pickup.pde Distort.pde" align="bottom"></canvas>
     <script src="processing.js"></script>
   </body>
