@@ -104,7 +104,7 @@ void draw()
 
   if(millis() > next_distort){
     distort.randomize();
-    next_distort += 1000;
+    next_distort += 100;
   }
   distort.pixelate();
 

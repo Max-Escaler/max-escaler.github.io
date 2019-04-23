@@ -1,12 +1,18 @@
 @font-face{
-	font-family: GreatLakesNF;
-	src: url("./BeirRun/Assets/fonts/greatlakesnf.ttf");
+  font-family: 'great_lakes_nfregular';
+  src: url('/Assets/fonts/greatlakesnf-webfont.woff2') format('woff2'),
+  url('Assets/fonts/greatlakesnf-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
+
+
 body {
 	background-color: lightblue;
 }
 
-img{
+img.logo{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -14,6 +20,10 @@ img{
   object-fit: cover;
   position:relative;
   height: 120px;
+}
+
+
+img.listpic{
 }
 
 canvas{
@@ -29,12 +39,15 @@ script{
 	align-content: bottom;
 }
 
-ul{
-	font-family: GreatLakesNF;
+ul.left{
+	font-family: great_lakes_nfregular;
+  font: inherit;
 	float: left;
 	width: 300px;
 	word-wrap: break-word;
 	list-style-type: none;
 }
 li{
+  font-family: great_lakes_nfregular;
+
 }
